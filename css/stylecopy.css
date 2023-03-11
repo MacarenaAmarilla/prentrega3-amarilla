@@ -1,0 +1,104 @@
+/* barra de navegacion */
+.nav-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    background-color: #720987;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #f0f0f0;
+}
+
+  /* Textos */
+h1 {
+    font-size: 50px;
+    padding: 40px;
+    color: rgb(76, 7, 149);
+    text-align: center;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 30px;
+    padding: 20px;
+    color: #ba0ddc;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: #dc0db6;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: #ba0ddc;
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+  /* Iconos de redes sociales */
+
+.icons {
+    color: #ba0ddc;
+}
+
+.red-social {
+    font-size: 30px;
+    margin: 15px;
+}
+.red-social:hover {
+    transform: scale(1.5, 1.5);
+    transition: 1000ms;
+}
+
+.red-social2 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.red-social2 a {
+    margin: 15px;
+    color: #ba0ddc;
+}
+
+.btn {
+    margin: 15px;
+    color: #ba0ddc;
+}
+
+.btn:hover {
+    transform: scale(1.3, 1.3);
+    transition: 500ms;
+}
+  /* footer */
+.footer {
+    font-size: 15px;
+    margin: 0;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: #f0f0f0;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer a {
+    color: rgb(237, 130, 228);
+}
+
+.p-footer {
+    color: #fff;
+    margin: 5px;
+}
