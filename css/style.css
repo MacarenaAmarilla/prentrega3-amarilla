@@ -1,10 +1,11 @@
+
 /* barra de navegacion */
 .nav-collapse {
   align-items: center;
   justify-content: space-between;
 }
 .menu {
-  background-color: #720987;
+  background-color: #e27fd7;
   font-size: 15px;
   font-weight: bolder;
   color: #f0f0f0;
