@@ -1,11 +1,16 @@
-@mixin box-style ($background){
-    background-color: $background;
-    margin: 20px;
-    border: 1px solid black;
+@mixin media-md {
+    @media (min-width: 768px) {
+    @content;
+    }
+}
+@mixin media-lg {
+    @media (min-width: 992px) {
+    @content;
+    }
 }
 
-@mixin flexbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@mixin media-xxl {
+    @media (min-width: 1400px) {
+@content;
+    }
 }
