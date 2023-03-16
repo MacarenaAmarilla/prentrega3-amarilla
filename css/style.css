@@ -1,14 +1,52 @@
 
 /* barra de navegacion */
-.nav-collapse {
-  align-items: center;
-  justify-content: space-between;
+nav {background-color: rgb(203, 111, 201);}
+@media only screen and (min-width: 728px) {
+    li:hover
+    {
+        font-style: italic;
+        font-weight: 600; 
+    }  
+    /* efecto boton*/
+    .nav-item:hover{box-shadow: 1px 1px 5px #FABCE9;}
+    .nav-item:active{box-shadow: 1px 1px 5px #FABCE9 inset;}
+    .imagenAcerca{height:300px;}
+} 
+@media only screen and (max-width: 727px) {
+    li:active
+    /*color del boton cuando se hace click en el boton*/
+    {
+        background-color: rgb(253,162,205)
+    }
 }
-.menu {
-  background-color: #e27fd7;
-  font-size: 15px;
-  font-weight: bolder;
-  color: #f0f0f0;
+
+/*Color del boton por defecto cuando la pagina es la activa*/
+.active {background-color: rgb(255, 218, 224);}
+
+/*Formato pastillas de la barra de navegacion*/
+.rounded-pill{
+    color:rgb(255, 218, 224);
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+    transition:all 0.5s;
+}
+/*Efecto llenado rosado cuando se mueve el mouse sobre el boton*/
+.rounded-pill:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:0%;
+    width:100%;
+    background-color:rgb(255, 218, 224);
+    z-index:-1;
+    border-radius: 0 0 50% 50%;
+    transition: all 0.5s;
+}
+
+.rounded-pill:hover:before{
+    height:190%
 }
 
 /* Textos */
