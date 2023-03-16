@@ -14,16 +14,12 @@ nav {background-color: rgb(203, 111, 201);}
 } 
 @media only screen and (max-width: 727px) {
     li:active
-    /*color del boton cuando se hace click en el boton*/
     {
         background-color: rgb(253,162,205)
     }
 }
-
-/*Color del boton por defecto cuando la pagina es la activa*/
 .active {background-color: rgb(255, 218, 224);}
 
-/*Formato pastillas de la barra de navegacion*/
 .rounded-pill{
     color:rgb(255, 218, 224);
     cursor:pointer;
@@ -31,7 +27,7 @@ nav {background-color: rgb(203, 111, 201);}
     overflow:hidden;
     transition:all 0.5s;
 }
-/*Efecto llenado rosado cuando se mueve el mouse sobre el boton*/
+
 .rounded-pill:before{
     content:"";
     position:absolute;
