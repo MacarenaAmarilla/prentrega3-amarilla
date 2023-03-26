@@ -9,18 +9,31 @@ body {
 }
 
 /* Textos */
-h1 {
-  font-size: 50px;
+.tittle {
+  font-size: 40px;
   padding: 40px;
-  color: rgb(173, 69, 178);
-  text-align: center;
+  color: rgb(140, 26, 146);
   font-weight: bold;
+  text-align: center;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   padding: 20px;
-  color: rgb(173, 51, 180);
+  color: rgb(211, 19, 160);
   text-align: center;
   font-weight: bold;
 }
@@ -28,7 +41,7 @@ h2 {
 h3 {
   font-size: 15px;
   padding: 20px;
-  color: rgb(173, 69, 178);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-weight: bold;
 }
@@ -36,18 +49,52 @@ h3 {
 .icons {
   font-size: 15px;
   padding: 20px;
-  color: pink;
+  color: rgb(190, 51, 163);
   text-align: center;
   font-weight: bold;
 }
 
-h2 {
-  font-size: 40px;
+.icons {
+  color: #ba0ddc;
+}
+
+.red-social {
+  font-size: 30px;
+  margin: 15px;
+}
+.red-social:hover {
+  transform: scale(1.5, 1.5);
+  transition: 1000ms;
+}
+
+.red-social2 {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.red-social2 a {
+  margin: 15px;
+  color: #ba0ddc;
+}
+
+.btn {
+  margin: 15px;
+  color: #ba0ddc;
+}
+
+.btn:hover {
+  transform: scale(1.3, 1.3);
+  transition: 500ms;}
+
+.card-text {
+  font-size: 20px;
   padding: 20px;
-  color: rgb(173, 51, 180);
+  color: rgb(198, 34, 146);
   text-align: center;
   font-weight: bold;
 }
+
 
 /* footer */
 .footer {
